@@ -3,20 +3,20 @@
 //     basta che si vedano) gli elementi della lista individualmente
 //     con un ciclo while.
 
-const ingredient = ["pane", "uova", "farina", "pasta"];
+const ingredients = ["pane", "uova", "farina", "pasta"];
 const spesa = document.getElementById("spesa");
 
 let list = "<ul>";
-// for (let i = 0; i < ingredient.length; i++) {
-//     let items = ingredient[i]
-//     list+=`<li>${items}</li>`
+// for (let i = 0; i < ingredients.length; i++) {
+//     let ingrediente = ingredients[i]
+//     list+=`<li>${ingrediente}</li>`
 // }
 
 let i = 0;
-while (i < ingredient.length) {
-  let items = ingredient[i];
-  console.log(items);
-  list += `<li>${items}</li>`;
+while (i < ingredients.length) {
+  let ingrediente = ingredients[i];
+  console.log(ingrediente);
+  list += `<li>${ingrediente}</li>`;
   i++;
 }
 
